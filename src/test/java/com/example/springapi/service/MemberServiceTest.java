@@ -1,9 +1,7 @@
 package com.example.springapi.service;
 
 import com.example.springapi.domain.Member;
-import com.example.springapi.repository.MemberRepository;
 import com.example.springapi.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
