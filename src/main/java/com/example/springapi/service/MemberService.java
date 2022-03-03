@@ -7,7 +7,7 @@ import com.example.springapi.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-public class MemberSerivce {
+public class MemberService {
     private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     // 회원 가입
