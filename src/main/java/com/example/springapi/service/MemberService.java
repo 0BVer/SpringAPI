@@ -3,13 +3,17 @@ package com.example.springapi.service;
 import com.example.springapi.domain.Member;
 import com.example.springapi.repository.MemberRepository;
 import com.example.springapi.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 
+    @Autowired
     public MemberService(MemoryMemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
